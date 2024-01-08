@@ -12,18 +12,19 @@ const CustomNavbar = () => {
                 {/* Instacart Logo */}
                 <Navbar.Brand href="#">
                     <img
-                        src="https://1000logos.net/wp-content/uploads/2023/04/Instacart-Logo.jpg" // Replace with the actual path or URL of the Instacart logo
+                        src="https://1000logos.net/wp-content/uploads/2023/04/Instacart-Logo.jpg"
                         alt="Instacart Logo"
                         height="100"
                         className="d-inline-block align-top"
                     />
                 </Navbar.Brand>
 
-                <form class="d-flex" role="search">
-                    <input
-                        class="form-control"
+
+                <form class="d-flex">
+                    <input style={{width: '25em'}}
+                        class="form-control flex-grow-1" 
                         type="search"
-                        placeholder="Search"
+                        placeholder="Search for products and stores"
                         aria-label="Search"
                     />
                     <button class="btn btn-outline-success" type="submit">
@@ -42,10 +43,10 @@ const CustomNavbar = () => {
                     </Nav>
                 </Navbar.Collapse>
 
-                <button type="button" class="btn btn-link">
+                <button type="button" class="btn btn-link" style={{ textDecoration: "none", fontSize: "20px", color: "black" }}>
                     Log in
                 </button>
-                <button type="button" class="btn btn-success">
+                <button type="button" class="btn btn-success" style={{ marginRight: '20px' }}>
                     Sign up
                 </button>
             </Navbar>
@@ -56,10 +57,10 @@ const CustomNavbar = () => {
                     class="card-img"
                     alt="..."
                 />
-                <div class="card-img-overlay">
-                    <h1 class="card-title">Order groceries for</h1>
-                    <h1>delivery or pickup today</h1>
-                    <p class="card-text">
+                <div class="card-img-overlay" style={{}}>
+                    <h1 class="card-title" style={{fontSize: '3em', fontWeight: "bold"}}>Order groceries for</h1>
+                    <h1 class="card-title" style={{fontSize: '3em' , fontWeight: "bold"}}>delivery or pickup today</h1>
+                    <p class="card-text" style={{fontSize: '1em' , fontWeight: "600"}}>
                         Whatever you want from stores, brought right to your
                         door.{" "}
                     </p>

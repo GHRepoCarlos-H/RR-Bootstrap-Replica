@@ -10,8 +10,9 @@ const App = () => {
   return (
     <div>
       <CustomNavbar />
-      <LocationForm />
       <StoreListings />
+      <LocationForm />
+      
       
       {/* Add more components as needed */}
     </div>

@@ -3,6 +3,11 @@
 import React from 'react';
 import './CardGrid.css';
 
+const imageStyle = {
+  width: '80px',
+  height: '80px',
+}
+
 const CardGrid = () => (
   <div className="container mt-5">
     <div className="row">
@@ -10,8 +15,8 @@ const CardGrid = () => (
       <div className="col-md-4 mb-3">
         <div className="card custom-card">
           <div className="row no-gutters">
-            <div className="col-md-4">
-              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img rounded-circle" />
+            <div className="col-md-4" >
+              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img rounded-circle" alt='Sprouts Logo' style={imageStyle}/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -28,7 +33,7 @@ const CardGrid = () => (
         <div className="card custom-card border shadow">
           <div className="row no-gutters">
             <div className="col-md-4">
-            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Image for Card 2" />
+            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Aldi logo" style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -45,12 +50,12 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Image for Card 3" />
+              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Kroger logo" style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Kroger</h5>
-                <p className="card-text">Delivery Only</p>
+                <p className="card-text">Delivery + Pickup</p>
               </div>
             </div>
           </div>
@@ -64,7 +69,7 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img" alt="Image for Card 4" />
+              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img" alt='Sprouts Logo' style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -81,7 +86,7 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Image for Card 2" />
+            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Aldi logo" style={imageStyle}/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -98,12 +103,12 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Image for Card 6" />
+              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Kroger logo" style={imageStyle}/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Kroger</h5>
-                <p className="card-text">Delivery Only</p>
+                <p className="card-text">Delivery + Pickup</p>
               </div>
             </div>
           </div>
@@ -117,7 +122,7 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img" alt="Image for Card 7" />
+              <img src="https://1000logos.net/wp-content/uploads/2023/10/Sprouts-Logo-500x281.jpg" className="card-img" alt='Sprouts Logo' style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -134,7 +139,7 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Image for Card 2" />
+            <img src="https://www.aldi.com/images/aldi_sued_logo.png" className="card-img rounded-circle" alt="Aldi logo" style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -151,12 +156,12 @@ const CardGrid = () => (
         <div className="card custom-card">
           <div className="row no-gutters">
             <div className="col-md-4">
-              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Image for Card 9" />
+              <img src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" className="card-img" alt="Kroger logo" style={imageStyle} />
             </div>
             <div className="col-md-8">
               <div className="card-body">
                 <h5 className="card-title">Kroger</h5>
-                <p className="card-text">Delivery Only</p>
+                <p className="card-text">Delivery + Pickup</p>
               </div>
             </div>
           </div>
