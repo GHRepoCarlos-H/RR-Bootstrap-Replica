@@ -1,0 +1,21 @@
+/* CardGrid.css */
+
+/* Custom CSS for card appearance */
+.custom-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 1px solid #ddd; /* Border color */
+    box-shadow: 0 15px 10px rgba(119, 8, 8, 0.1);
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.10);
+  }
+
+  .custom-card .card-body {
+    padding: 10px;
+  }
+
+
+
+  

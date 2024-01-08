@@ -38,7 +38,7 @@ const StoreListings = () => {
                 <Col sm="1"></Col>
                 <Row>
                     <Col xs="auto" style={{marginBottom: "50px", marginTop:"50px"}}>
-                        <Image src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" roundedCircle style={{ width: "80px", height: "80px" }}/>
+                        <Image src="https://zenifydrinks.com/wp-content/uploads/2019/02/kroger-logo-png-transparent.png" roundedCircle style={{ width: "100px", height: "100px" }}/>
                     </Col>
                     <Col sm="1">
                         <h5 style={{ fontWeight: "bold", marginTop:"61px" }}>Kroger</h5>
@@ -46,7 +46,9 @@ const StoreListings = () => {
                     </Col>
                 </Row>
             </Row>
+            
         </Container>
+        
     );
 };
 

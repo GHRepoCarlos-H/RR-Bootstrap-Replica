@@ -1,8 +1,10 @@
 // App.js
 import React from 'react';
 import CustomNavbar from './components/Navbar';
-import LocationForm from './components/LocationForm';
+import LocationForm from './components/CardGrid';
 import StoreListings from './components/StoreListings';
+import CardGrid from './components/CardGrid';
+
 
 const App = () => {
   return (
@@ -10,6 +12,7 @@ const App = () => {
       <CustomNavbar />
       <LocationForm />
       <StoreListings />
+      
       {/* Add more components as needed */}
     </div>
   );
